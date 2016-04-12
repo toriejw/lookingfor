@@ -9,9 +9,14 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'feedjira'
+gem 'active_model_serializers'
+gem 'api-pagination'
+gem 'bootstrap-sass'
 gem 'puma'
 gem 'newrelic_rpm'
 gem 'figaro'
+gem 'will_paginate-bootstrap'
+gem 'draper'
 
 group :development, :test do
   gem 'rspec-rails'
@@ -19,6 +24,7 @@ group :development, :test do
   gem 'launchy'
   gem 'factory_girl_rails'
   gem 'byebug'
+  gem 'pry'
   gem 'faker'
 end
 
